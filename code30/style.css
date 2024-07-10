@@ -1,0 +1,169 @@
+
+.footer-section {
+  background: black;
+  height: 10vh;
+}
+
+p.text-muted {
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.social-media-icons {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.fc-today-button {
+  display: none;
+}
+
+.copyright-footer-text {
+  font-family: 'ralewaymedium';
+  font-size: 12px;
+  color: #333333;
+}
+
+.social-media-section>a {
+  margin-right: 20px;
+  color: #465e8d;
+}
+
+.social-media-section>a:hover {
+  color: #e36a5c;
+}
+
+.footer-section {
+  position: relative;
+}
+
+.social-media-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+select.ui-datepicker-month>option.customOption:hover {
+  color: red;
+}
+
+.myClass {
+  color: #fff;
+}
+
+.tab-content {
+  min-height: 600px;
+}
+
+.no-del-msg {
+  font-family: 'ralewaymedium';
+  font-size: 14px;
+  font-style: italic;
+}
+
+.icon-desciption {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+/* ************************************************************* */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html , body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  position: relative;
+  overflow: hidden;
+}
+#page1{
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  position: relative;
+}
+
+#page1>video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#page1>nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  padding: 0px 155px;
+  /* background-color: aliceblue; */
+}
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url( );
+}
+#right-nav>button{
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid white;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+}
+.bottom-page1{
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  height: 35vh;
+  width: 50vw;
+  /* background-color: blue; */
+}
+.bottom-page1>h1{
+  font-size: 5vw;
+  font-weight: 100;
+  line-height: 1;
+}
+.bottom-page1-inner{
+  position: absolute;
+  bottom: 0%;
+  height: 35%;
+  width: 100%;
+  /* background-color: aqua; */
+
+}
+.bottom-page1-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px 0px 0px;
+}
+.bottom-page1-inner>button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  /* background-color: white; */
+  color: blue;
+  font-weight: 700;
+}
+.bottom-page1-inner>h4{
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: white;
+}
+#page2{
+  margin-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  position: relative;
+}
